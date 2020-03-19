@@ -7,6 +7,8 @@ De bedoeling is dat elk van de ploegen een match speelt tegen een andere ploeg.
 De ploegen die nog niet geloot zijn worden bijgehouden in de List<string> ploegenBeschikbaar.
 
 De ploegen die geloot zijn worden bijgehouden in de List<string> ploegenGeloot.
+  
+![image01](https://github.com/howest-gp-prb/oe-reeksen-loting-List-opgave/blob/master/images/image01.gif?raw=true)
 
 ## Ploegen tonen
 
