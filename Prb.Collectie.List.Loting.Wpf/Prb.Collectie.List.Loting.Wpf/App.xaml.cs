@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Loting.Wpf
+namespace Prb.Collectie.List.Loting.Wpf
 {
     /// <summary>
     /// Interaction logic for App.xaml

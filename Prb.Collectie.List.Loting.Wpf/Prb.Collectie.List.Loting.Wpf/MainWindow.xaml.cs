@@ -13,21 +13,25 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Loting.Wpf
+namespace Prb.Collectie.List.Loting.Wpf
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        List<string> ploegenBeschikbaar = new List<string>();
-
         public MainWindow()
         {
             InitializeComponent();
         }
 
+        #region Globale Variabelen
+        List<string> ploegenBeschikbaar;
+
+
+        #endregion
+
+        #region Methoden
         void VulPloegen()
         {
             ploegenBeschikbaar.Add("Clepsy Paulas");
@@ -39,5 +43,19 @@ namespace Loting.Wpf
             ploegenBeschikbaar.Add("Wonderfull Willies");
             ploegenBeschikbaar.Add("Soetigheid");
         }
+
+
+        #endregion
+
+        #region EventHandlers
+        private void wndLoting_Loaded(object sender, RoutedEventArgs e)
+        {
+            ploegenBeschikbaar = new List<string>();
+        }
+
+
+
+        #endregion
+
     }
 }
